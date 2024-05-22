@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box bg="gray.800" color="white" py={4}>
+      <Box bg="#fff1e5" color="white" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <HStack spacing={8}>
@@ -19,7 +19,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" py={10}>
+      <Box bg="#f3f2f1" py={10}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>Main Headline: Market Trends Today</Heading>
           <Text fontSize="lg">Stay updated with the latest market trends and financial news. Our expert analysis and insights will help you make informed decisions.</Text>
@@ -52,7 +52,7 @@ const Index = () => {
       </Box>
 
       {/* Market Data Section */}
-      <Box bg="gray.100" py={10}>
+      <Box bg="#f3f2f1" py={10}>
         <Container maxW="container.lg">
           <Heading as="h3" size="xl" mb={6}>Market Data</Heading>
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
@@ -90,7 +90,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box bg="gray.800" color="white" py={10}>
+      <Box bg="#fff1e5" color="white" py={10}>
         <Container maxW="container.lg">
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10} mb={10}>
             <Box>
